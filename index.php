@@ -12,4 +12,9 @@ $test1 = 150;
 $test2 = 250;
 
 printf('Amount: %2$d Another Amount is: %1$d', $test1,$test2);
+
+$first_name = "Atik";
+$last_name = "Rahman";
+
+printf("Your first Name: $first_name");
 ?>
