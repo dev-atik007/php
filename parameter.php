@@ -5,7 +5,8 @@ sur_name();
 print_name('abcd');
 print_name('efgh');
 print_name('ijk');
-my_address();
+
+my_address('Abcd', 'kxjfd', '67575');
 
 
 
@@ -24,8 +25,8 @@ function print_name($name)
 }
 //multiple parameter
 
-function my_address(){
-    echo "vill - abcd, p.o - Def, P.H - 1234";
+function my_address($vill, $post, $phone){
+    echo "vill - $vill, p.o - $post, P.H - $phone";
 }
 
 
