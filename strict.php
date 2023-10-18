@@ -1,6 +1,7 @@
 <?php
 
-function sum($a, $b)
+declare(strict_types=1);
+function sum(int $a, int $b)
 {
     $c = $a + $b;
     echo "Total result is: $c";
