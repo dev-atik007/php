@@ -2,6 +2,7 @@
 
 my_name();
 sur_name();
+print_name('abcd');
 
 function my_name()
 {
@@ -9,7 +10,12 @@ function my_name()
 }
 
 function sur_name(){
-    echo "Atik";
+    echo "Atik<br>";
+}
+
+function print_name($name)
+{
+    echo $name;
 }
 
 
